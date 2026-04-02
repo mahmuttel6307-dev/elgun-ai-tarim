@@ -1,0 +1,77 @@
+.contact-form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.company-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.company-card {
+    flex: 1;
+    min-width: 200px;
+    background: #f9f9f9;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    margin: 20px 0;
+}
+
+.faq h3 {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.faq p {
+    display: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.social-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.social-button:hover {
+    background-color: #0056b3;
+}
